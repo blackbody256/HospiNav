@@ -138,6 +138,3 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
-#Dataset
-Hospital.v1-hospitaldata.yolov8
