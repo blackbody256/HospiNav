@@ -138,3 +138,17 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# ML model artifacts
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+*.tflite
+*.h5
+*.joblib
+
+# Dataset archives
+datatsetCOCOVersion/Hospital.v2-hospital_rcnn.coco.zip
