@@ -152,3 +152,4 @@ models/
 
 # Dataset archives
 datatsetCOCOVersion/Hospital.v2-hospital_rcnn.coco.zip
+datasetcocoversion/
