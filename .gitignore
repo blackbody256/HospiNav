@@ -108,7 +108,10 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
+.envrc
 .venv
+.venv/
 env/
 venv/
 ENV/
@@ -139,8 +142,22 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# Jupyter / editors / OS files
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+
 # ML model artifacts
 models/
+checkpoints/
+runs/
+outputs/
+wandb/
+mlruns/
+lightning_logs/
 *.pt
 *.pth
 *.ckpt
@@ -151,5 +168,5 @@ models/
 *.joblib
 
 # Dataset archives
-datatsetCOCOVersion/Hospital.v2-hospital_rcnn.coco.zip
+datasetCOCOVersion/
 datasetcocoversion/
